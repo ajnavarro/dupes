@@ -1,0 +1,15 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "gopkg.in/bblfsh/client-go.v2"
+  version = "2.8.1"
+  source ="github.com/bblfsh/client-go"
+[[constraint]]
+  name = "github.com/jessevdk/go-flags"
+  version = "1.4.0"
+[[constraint]]
+  name = "gopkg.in/src-d/enry.v1"
+  version = "1.6.4"
+  source = "github.com/src-d/enry"
