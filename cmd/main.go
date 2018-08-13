@@ -42,7 +42,7 @@ func main() {
 	}
 
 	for k, dups := range res.Dupes {
-		log.Println("duplicated code found!", k)
+		log.Println("similar code found!", k)
 		for _, d := range dups {
 			log.Println("	- file: ", d.Filename, "lines:", d.LineFrom, d.LineTo)
 		}
